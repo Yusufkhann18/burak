@@ -9,6 +9,7 @@
     "start": "tsx src/server.ts",
     "start.dev": "nodemon --exec tsx src/server.ts",
     "build": "tsc",
+    "train": "nodemon --exec tsx src/train.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
